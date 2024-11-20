@@ -2,6 +2,7 @@
 Imersão Alura Google Gemini 18/11 a 22/11
 
 
+## Aula 01: Desvendando APIs e Servidores
 1. Instalar o node.js
 2. Começando o projeto
    1. npm init es6 -y, vai criar o package.json
@@ -13,3 +14,14 @@ Imersão Alura Google Gemini 18/11 a 22/11
    7. Pesquisar o que é node-modules?
    8. Criar um arquivo server.js
    9. Requisição e Resposta?
+
+## Aula 02: Criando e Estruturando sua primeira API com GET e Banco de dados (DB)
+
+1. O que são http status?
+   1. https://http.cat/
+2. Baseado na imagem abaixo, crie novos posts para um mock. ![alt text](image.png)
+3. Adicione um ID em cada objeto
+4. Instalar no drive do mongodb
+   1. npm install mongodb
+   
+
