@@ -15,6 +15,7 @@ Imersão Alura Google Gemini 18/11 a 22/11
    8. Criar um arquivo server.js
    9. Requisição e Resposta?
 
+
 ## Aula 02: Criando e Estruturando sua primeira API com GET e Banco de dados (DB)
 
 1. O que são http status?
@@ -30,6 +31,10 @@ Imersão Alura Google Gemini 18/11 a 22/11
 1. npm install mongodb
 2. Proteger dados sensíveis (Senhas, Chaves API), criar o arquivo .env
 3. No package.json, na parte script no dev = node --watch --env-file=.env server.js
-   1. Estou estudando javascript e gostaria de entender para que servem as intruções async e await em um código. Esplique em uma frase o que instrução faz?
-4. Pedir para o Gemini cirar comentários para cada função
+   1. Estou estudando javascript e gostaria de entender para que servem as instruções async e await em um código. Explique em uma frase o que instrução faz?
+4. Pedir para o Gemini criar comentários para cada função
 
+
+## Aula 04: Implementando Armazenamento e Upload de Imagens
+
+1. Testar novamente pq não está voltando o post com o id
