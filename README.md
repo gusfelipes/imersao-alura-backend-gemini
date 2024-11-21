@@ -23,5 +23,13 @@ Imersão Alura Google Gemini 18/11 a 22/11
 3. Adicione um ID em cada objeto
 4. Instalar no drive do mongodb
    1. npm install mongodb
-   
+
+
+## Aula 03: Conectando sua API ao MongoDB: Estrutura, Conexão e Refatoração
+
+1. npm install mongodb
+2. Proteger dados sensíveis (Senhas, Chaves API), criar o arquivo .env
+3. No package.json, na parte script no dev = node --watch --env-file=.env server.js
+   1. Estou estudando javascript e gostaria de entender para que servem as intruções async e await em um código. Esplique em uma frase o que instrução faz?
+4. Pedir para o Gemini cirar comentários para cada função
 
