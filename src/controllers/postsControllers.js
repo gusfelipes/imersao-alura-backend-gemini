@@ -1,4 +1,5 @@
 import { getTodosPosts, criarPost } from "../models/postsModel.js";
+import fs from "fs";
 
 export async function listarTodosPosts(req, res) {
   const posts = await getTodosPosts();
@@ -10,7 +11,6 @@ export async function enviarNovoPost(req, res) {
 
   try {
     const postCriado = await criarPost(novoPost);
-    console.log(postCriado);
     res.status(200).json(postCriado);
   } catch (erro) {
     console.error(erro.message);
@@ -27,7 +27,6 @@ export async function uploadImagem(req, res) {
 
   try {
     const postCriado = await criarPost(novoPost);
-    console.log(postCriado);
     const imagemAtualizada = `uploads/${postCriado.insertedId}.png`;
     fs.renameSync(req.file.path, imagemAtualizada);
     res.status(200).json(postCriado);

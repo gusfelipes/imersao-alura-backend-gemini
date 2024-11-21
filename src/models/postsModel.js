@@ -11,5 +11,5 @@ export async function getTodosPosts() {
 export async function criarPost(novoPost) {
   const db = conexao.db("imersao-instabyte");
   const colecao = db.collection("posts");
-  colecao.insertOne(novoPost);
+  return colecao.insertOne(novoPost);
 }
